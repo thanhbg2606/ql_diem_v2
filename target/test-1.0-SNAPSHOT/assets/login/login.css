@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.label {
+    font-size: 8pt;
+    font-family: Tahoma;
+}
+
+a {
+    text-decoration: none;
+    color: #355170;
+    font-family: Tahoma;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(192, 19, 19);
+}
+
+ul li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+ul li:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 1006px;
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header .header-login {
+    width: 100%;
+    height: 25px;
+    background-image: url(./Images/bg_heading_thongbao.png);
+    padding-left: 50px;
+    text-align: right;
+    line-height: 25px;
+    color:rgb(7, 7, 7);
+    font-size: 12px;
+    font-family: 'Tahoma', Times, serif;
+}
+
+.header .header-login p #font {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header .add {
+    width: 100%;
+    height: 10px;
+    border-top-left-radius: 5px;
+    background-color: rgb(255, 115, 0);
+}
+
+.header .nav {
+    height: 42px;
+    background-color: #bcd6e5d1;
+}
+
+.header .nav ul {
+    padding-left: 10px;
+}
+.header .nav li {
+    display: inline;
+    margin: 0 7px;
+    line-height: 42px;
+}
+
+.header .nav ul li a {
+    font-size: 8pt;
+    font-family: Tahoma;
+    color: #355170;
+    font-weight: bold;
+}
+
+.header .nav ul li a:hover {
+    color: rgb(192, 19, 19);
+}
+
+.header-context p, .header-context p a {
+    color: MistyRose;
+    font-weight: bold;
+    font-family: Tahoma;
+    font-size: 13px;
+}
+.container-login {
+    margin-top: 10px;
+    height: 500px;
+}
+
+.container-login .login {
+    height: 34px;
+}
+
+.container-login .login a {
+    color: Blue;
+    font-family: Tahoma;
+    font-size: 9pt;
+    padding-left: 20px;
+    line-height: 34px;
+    margin-right: 200px;
+}
+
+.login .login-user {
+    padding: 5px 20px;
+}
+
+.login-user span {
+    padding-right: 10px;
+}
+
+#textbox {
+    padding: 3px;
+    width: 120px;
+}
+
+.login #submit {
+    margin-left: 10px;
+    padding: 3px;   
+}
+
+
+.footer {
+    background: url(./Images/FooterBg.png) repeat-x;
+    height: 50px;
+    clear: both;
+    margin-top: 1px;
+    margin-bottom: 5px;
+}
+
+.footer table {
+    width: 100%;
+    margin-left: 15px;
+}
+
+.footer .style1 {
+    width: 800px;
+}
+
+.footer .style2 {
+    width: 80px;
+    padding-left: 75px;
+}
+
+.footer td.style {
+    padding-right: 15px;
+}

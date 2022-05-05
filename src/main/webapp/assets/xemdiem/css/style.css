@@ -1,0 +1,341 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.font {
+    font-size: 8pt;
+    font-family: Tahoma;
+}
+
+a {
+    text-decoration: none;
+    color: #355170;
+    font-family: Tahoma;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(192, 19, 19);
+}
+
+ul li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+ul li:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 1006px;
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header .login {
+    width: 100%;
+    height: 25px;
+    background-image: url(./bg_heading_thongbao.png);
+    padding-left: 50px;
+    text-align: right;
+    line-height: 25px;
+    color:rgb(7, 7, 7);
+    font-size: 12px;
+    font-style: italic;
+    font-family: 'Tahoma', Times, serif;
+}
+
+.header .login p #font {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header .add {
+    width: 100%;
+    height: 10px;
+    border-top-left-radius: 5px;
+    background-color: rgb(255, 115, 0);
+}
+
+.header .nav {
+    height: 42px;
+    background-color: #bcd6e5d1;
+}
+
+.header .nav li {
+    display: inline;
+    margin: 0 7px;
+    line-height: 42px;
+}
+
+.header .nav ul li a {
+    font-size: 8pt;
+    font-family: Tahoma;
+    color: #355170;
+    font-weight: bold;
+}
+
+.header .nav ul li a:hover, 
+.header .tutorial a:hover {
+    color: rgb(192, 19, 19);
+}
+
+.header .tutorial {
+    height: 68px;
+}
+.header .tutorial a {
+    font-size: 8pt;
+    font-family: Tahoma;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-right: 10px;
+    line-height: 50px;
+}
+
+.infor-member {
+    text-align: center;
+}
+.infor-member-bor {
+    display: inline-block;
+    padding: 20px 22px 5px;
+    background-color: #317ceb82;
+    border-radius: 10px;
+}
+
+.infor-member-bor .member {
+    border: solid 1px #1066bf;
+    border-radius: 10px;
+    background-color: white;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 80px;
+}
+
+.infor-member-bor .member table td {
+    text-align: left;
+    font-size: 8pt;
+    font-family: Tahoma;
+    padding-right: 70px;
+}
+
+
+.point-table {
+    width: 100%;
+}
+.point-table a {
+    color: Blue;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: Tahoma;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.point-table #pt {
+    display: inline;
+    font-family: Tahoma;
+    font-size: 11px;
+}
+
+.textbox {
+    height: 20px;
+    padding: 1px 2px;
+    width: 134px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.sub-button {
+    height: 22px;
+    font-family: Tahoma;
+    font-size: 8pt;
+}
+
+.table {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+.point-table-list {
+    border-width: thin;
+    height: 600px;
+    overflow-x: scroll;
+}
+
+.view-table {
+    border-style: solid;
+    background: #f9f9f9;
+    margin-top: 5px;
+    border: solid 1px #dedddd;
+}
+
+.view-table .title-diem {
+    background-color: #2D8ECE;
+    height: 30px;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 0 0 0 0;
+    color: White;
+    border-color: blue;
+}
+
+.view-table td {
+    padding-left: 5px;
+    padding-right: 5px ! important;
+    border-left: solid 1px #dbdbdb;
+    border-bottom: solid 1px #dbdbdb;
+    border-collapse: separate;
+    font-size: 8pt;
+    font-family: Tahoma;
+}
+
+span {
+    display: inline-block;
+}
+span.td-1 {
+    width: 16px;
+}
+
+span.td-2 {
+    width: 60px;
+}
+
+span.td-3 {
+    width: 250px;
+    text-align: left;
+}
+
+span.td-4,span.td-5,span.td-6,span.td-7,span.td-8 {
+    width: 20px;
+}
+
+span.td-9{
+    width: 35px;
+}
+
+span.td-10, span.td-11, span.td-12, span.td-13 {
+    width: 40px;
+}
+
+.view-table .title-hk-diem {
+    height: 20px;
+    padding-left: 5px ! important;
+    padding-left: 1px;
+    padding-right: 5px ! important;
+    border-left: solid 1px #ffffff;
+    background-color: #cccccc;
+    line-height: 18px;
+    font-size: 9pt;
+    padding-top: 3px;
+    font-weight: bold;
+    padding-bottom: 3px;
+}
+
+.view-table .title-hk-diem td {
+    text-align: left;
+}
+
+.view-table .row-diem {
+    height: 20px;
+    border: 1;
+    border-collapse: collapse;
+    border-width: 1px;
+    border-color: Black;
+}
+
+.clone-head-table-wrap {
+    position: fixed;
+    overflow: hidden;
+    top: 75px;
+    z-index: 2;
+    width: 977px;
+    visibility: hidden;
+}
+
+.clone-column-table-wrap {
+    position: fixed;
+    overflow: hidden;
+    visibility: hidden;
+    z-index: 1;
+    height: 583px;
+    width: 28px;
+    top: 75px;
+}
+
+.clone-column-head-table-wrap {
+    position: fixed;
+    overflow: hidden;
+    visibility: hidden;
+    top: 75px;
+    z-index: 3;
+    background-color: white;
+    width: 28px;
+}
+
+.row-diemTK {
+    background-color: White;
+    border: 1;
+    margin-left: 0px;
+    border-style: outset;
+    border-width: 1px;
+    border-color: Silver;
+    font-size: 10px;
+    font-weight: bold;
+    height: 18px;
+    padding-top: 2;
+}
+
+.point-table-footer {
+    margin-top: 10px;
+}
+
+.point-table-footer a {
+    color: red;
+}
+
+.point-table-footer span {
+    font-size: 14px;
+    float: left;
+    margin-top: 15px;
+}
+
+.print-score {
+    margin: 10px 0 20px;
+}
+
+.print-score h5 {
+    text-align: center;
+}
+
+.footer {
+    background: url(./FooterBg.png) repeat-x;
+    height: 50px;
+    clear: both;
+    margin-top: 1px;
+    margin-bottom: 5px;
+}
+
+.footer table {
+    width: 100%;
+    margin-left: 15px;
+}
+
+.footer .style1 {
+    width: 800px;
+}
+
+.footer .style2 {
+    width: 80px;
+    padding-left: 75px;
+}
+
+.footer td.style {
+    padding-right: 15px;
+}
